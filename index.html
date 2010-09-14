@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>jQuery UI Example Page</title>
+        <link type="text/css" href="lib/jquery-ui-1.8.4.custom.css" rel="stylesheet" />
+        <script type="text/javascript" src="lib/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="lib/jquery-ui-1.8.4.custom.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                // Datepicker
+                $('#datepicker').datepicker({
+                    inline: true
+                });
+            });
+        </script>
+        <style type="text/css">
+            /*demo page css*/
+            body{ 
+                font: 50% "calibri", sans-serif;
+            }
+            .demoHeaders {
+                margin-top: 2em;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Datepicker -->
+        <div id="body">
+            <h2 class="demoHeaders">Datepicker</h2>
+            <input id="datepicker" />
+        </div>
+    </body>
+</html>
+
+
